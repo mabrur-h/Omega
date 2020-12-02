@@ -149,6 +149,11 @@ body {
 }
 
 
+.navbar-list-item-link .caret-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 .navbar-list-links .dropdown-menu-row .navbar-list-dropdown-item {
     padding: 8px 0;
