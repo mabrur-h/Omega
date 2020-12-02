@@ -163,9 +163,9 @@ body {
     margin-left: 15px;
 }
 
-.navbar .navbar-list-logo {
+.navbar .navbar-list-item-logo {
     font-weight: bolder;
-    font-size: 26px;
+    font-size: 20px;
 }
 
 .navbar .navbar-list-item a {
