@@ -304,13 +304,16 @@ body {
 
 .info {
     background-color: #5454D4;
+    background-image: url('../img/Oval2.svg'), url('../img/white-curve-1.svg');
+    background-repeat: no-repeat no-repeat;
+    background-position: right 0, 100% 100%;
 }
 
 .info-row {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 100px 0;
+    padding: 130px 0;
 }
 
 .info-row-cards {
@@ -325,7 +328,7 @@ body {
 }
 
 .info-row .info-row-content {
-    width: 50%;
+    width: 45%;
 }
 
 .info-row .info-cards-list .info-cards-list-item {
@@ -347,7 +350,6 @@ body {
 }
 
 .info-row .info-cards-list .info-cards-list-image {
-    background-color: rgba(240, 64, 55, 0.097195);
     border-radius: 50%;
     width: 50px;
     height: 50px;
@@ -356,6 +358,46 @@ body {
     justify-content: center;
 }
 
+.c-1 {
+    background-color: #F0403730;  
+}
+
+.c-2 {
+    background-color: #FEDC5A30;
+}
+
+.c-3 {
+    background-color: #5454D430;
+}
+
+.c-4 {
+    background-color: #413E6530;
+}
+
 .info-row .info-cards-list .info-cards-list-image img {
     height: 20px;
+}
+
+.info-row-content .info-content-title {
+    font-size: 50px;
+    color: white;
+}
+
+.info-row-content .info-content-text {
+    color: #FFFFFF88;
+    line-height: 1.8rem;
+    padding: 40px 0;
+    padding-bottom: 55px;
+}
+
+.info-content-btn {
+    padding: 15px 30px;
+    border: 2px solid #FFFFFF88;
+    border-radius: 4px;
+    color: white;
+}
+
+.info-content-btn:hover {
+    background-color: #FFFFFF88;
+    color: #435cc9;
 }
