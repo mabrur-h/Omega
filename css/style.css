@@ -76,6 +76,11 @@ body {
     color: white;
 }
 
+.main-btn:hover {
+    box-shadow: 4px 4px 13px 0px rgba(50, 50, 50, 0.59);
+    transition: 0.5s;
+}
+
 .main-btn a {
     color: white !important; 
 }
@@ -149,7 +154,6 @@ body {
     display: block;
 }
 
-
 .navbar-list-item-link .caret-right {
     display: flex;
     align-items: center;
@@ -177,6 +181,7 @@ body {
 .navbar .navbar-list-item a {
     color: #19191B;
 }
+
 
 .navbar .navbar-list-item a:hover {
     color: #435cc9;
@@ -347,6 +352,7 @@ body {
     border-radius: 10px;
     box-shadow: 4px 4px 12px 0px rgba(50, 50, 50, 0.56);
     cursor: pointer;
+    transition: transform 0.5s;
 }
 
 .info-row .info-cards-list .info-cards-list-item:hover {
@@ -414,6 +420,7 @@ body {
 .info-content-btn:hover {
     background-color: #FFFFFF88;
     color: #435cc9;
+    transition: 0.5s;
 }
 
 .suggestion-row {
@@ -701,6 +708,7 @@ body {
 .footer .footer-form .main-btn {
     padding: 18px 0;
 }
+
 
 .footer .footer-list-group {
     display: flex;
