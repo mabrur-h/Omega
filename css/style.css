@@ -306,6 +306,7 @@ body {
 .info {
     background-color: #5454D4;
     background-image: url('../img/Oval2.svg'), url('../img/white-curve-1.svg');
+    background-size: auto, 100% auto;
     background-repeat: no-repeat no-repeat;
     background-position: right 0, 100% 102%;
 }
@@ -486,6 +487,7 @@ body {
     background-color: #F7F7FB;
     background-image: url('../img/white-curve-2.svg');
     background-repeat: no-repeat;
+    background-size: 100% auto;
     background-position: top;
 }
 
@@ -644,6 +646,7 @@ body {
     background-color: #19191B;
     background-image: url('../img/white-curve-3.svg'), url('../img/Oval3.svg');
     background-repeat: no-repeat, no-repeat;
+    background-size: 100% auto, auto;
     background-position: top, top left;
 }
 
