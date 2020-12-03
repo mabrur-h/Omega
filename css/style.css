@@ -548,6 +548,8 @@ body {
     width: 60%;
     box-shadow: 0px 0px 5px 0 rgba(50, 50, 50, 0.05);
     border-radius: 5px;
+    transition: transform 0.3s;
+
 }
 
 .tips .suggestion-cards .suggestion-cards-item:hover {
@@ -650,6 +652,7 @@ body {
 
 .btn-2:hover {
     color: #435cc999;
+    transition: 0.3s;
 }
 
 .btn-2 p {
@@ -703,6 +706,8 @@ body {
     border-radius: 8px;
     font-weight: 600;
     margin: 5px 0;
+    outline: none;
+    border: none;
 }
 
 .footer .footer-form .main-btn {
@@ -731,6 +736,7 @@ body {
 
 .footer .footer-list-group .footer-list-item-link:hover {
     color: #FFFFFF;
+    transition: 0.2s;
 }
 
 .footer-bottom {
