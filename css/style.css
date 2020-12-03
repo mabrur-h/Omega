@@ -642,5 +642,30 @@ body {
 
 .footer {
     background-color: #19191B;
+}
+
+.footer .form-row {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.footer .form-text-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
     color: white;
+}
+
+.footer .footer-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.footer .footer-form {
+    
 }
