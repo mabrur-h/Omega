@@ -642,6 +642,21 @@ body {
 
 .footer {
     background-color: #19191B;
+    background-image: url('../img/white-curve-3.svg'), url('../img/Oval3.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: top, top left;
+}
+
+.footer .form-title {
+    font-size: 48px;
+}
+
+.footer .form-text {
+    line-height: 2rem;
+    width: 75%;
+    text-align: center;
+    color: #FFFFFF88;
+    padding: 10px 0;
 }
 
 .footer .form-row {
@@ -666,6 +681,13 @@ body {
     padding: 20px 0;
 }
 
-.footer .footer-form {
-    
+.footer .footer-form input {
+    padding: 23px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    margin: 5px 0;
+}
+
+.footer .footer-form .main-btn {
+    padding: 18px 0;
 }
