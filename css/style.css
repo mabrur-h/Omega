@@ -365,19 +365,19 @@ body {
 }
 
 .c-1 {
-    background-color: #F0403730;  
+    background-color: #F0403730 !important;  
 }
 
 .c-2 {
-    background-color: #FEDC5A30;
+    background-color: #FEDC5A30 !important;
 }
 
 .c-3 {
-    background-color: #5454D430;
+    background-color: #5454D430 !important;
 }
 
 .c-4 {
-    background-color: #413E6530;
+    background-color: #413E6530 !important;
 }
 
 .info-row .info-cards-list .info-cards-list-image img {
@@ -480,4 +480,78 @@ body {
 .suggestion-image .suggestion-alarm .suggestion-alarm-text h4 {
     font-size: 18px;
     padding-right: 3px;
+}
+
+.tips {
+    background-color: #F7F7FB;
+    background-image: url('../img/white-curve-2.svg');
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.tips .suggestion-row {
+    padding-top: 220px;
+}
+
+.tips .suggestion-decor-image {
+    left: 3%;
+}
+
+.tips .suggestion-alarm {
+    top: 20%;
+    background-color: #F04037;
+    width: 60%;
+}
+
+.tips .suggestion-alarm .suggestion-alarm-text p {
+    color: #FFFFFF88;
+}
+
+.tips .suggestion-alarm .suggestion-alarm-text h4 {
+    color: #FFFFFF;
+    padding-top: 7px;
+}
+
+.tips .suggestion-content {
+    width: 44%;
+}
+
+.tips .suggestion-content-title {
+    width: 80%;
+}
+
+.tips .suggestion-content-text {
+    padding-bottom: 20px;
+}
+
+.tips .suggestion-cards .suggestion-cards-item {
+    display: flex;
+    padding: 20px 20px;
+    margin: 20px 0;
+    background-color: #FFFFFF;
+    width: 60%;
+    box-shadow: 0px 0px 5px 0 rgba(50, 50, 50, 0.05);
+    border-radius: 5px;
+}
+
+.tips .suggestion-cards .suggestion-cards-item:hover {
+    transform: translate(5px, -5px);
+    cursor: pointer;
+}
+
+.tips .suggestion-cards .suggestion-cards-item .suggestion-cards-image {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(240, 64, 55, 0.097195);
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.tips .suggestion-cards .suggestion-cards-item .suggestion-cards-text p {
+    padding-top: 5px;
+    color: #00000050;
+    font-weight: 600;
 }
