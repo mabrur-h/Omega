@@ -209,8 +209,9 @@ body {
     display: flex;
     align-items: center;
     padding: 15px 15px;
-    border-radius: 5px;
+    border-radius: 7px;
     position: absolute;
+    box-shadow: 4px 4px 13px 0px rgba(50, 50, 50, 0.59);
 }
 
 .p-1 {
@@ -306,7 +307,7 @@ body {
     background-color: #5454D4;
     background-image: url('../img/Oval2.svg'), url('../img/white-curve-1.svg');
     background-repeat: no-repeat no-repeat;
-    background-position: right 0, 100% 100%;
+    background-position: right 0, 100% 102%;
 }
 
 .info-row {
@@ -337,6 +338,11 @@ body {
     width: 48%;
     padding: 30px 20px;
     border-radius: 10px;
+    box-shadow: 4px 4px 12px 0px rgba(50, 50, 50, 0.56);
+}
+
+.info-row .info-cards-list .info-cards-list-item:hover {
+    transform: translate(10px, -5px);
 }
 
 .info-row .info-cards-list .info-cards-list-title {
@@ -400,4 +406,78 @@ body {
 .info-content-btn:hover {
     background-color: #FFFFFF88;
     color: #435cc9;
+}
+
+.suggestion-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.suggestion-content {
+    width: 40%;
+}
+
+.suggestion-content .suggestion-content-title {
+    font-size: 48px;
+}
+
+.suggestion-content .suggestion-content-text {
+    color: #696871;   
+    line-height: 30px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.suggestion-image {
+    position: relative;
+}
+
+.suggestion-image .suggestion-decor-image {
+    position: absolute;
+    top: 5%;
+    right: 3%;
+    background: transparent;
+}
+
+.suggestion-image .suggestion-alarm {
+    position: absolute;
+    top: 55%;
+    left: -13%;
+    display: flex;
+    background-color: #FEDC5A;
+    padding: 20px 10px;
+    border-radius: 5px;
+    padding-right: 0;
+    box-shadow: 4px 4px 13px 0px rgba(50, 50, 50, 0.59);
+}
+
+
+.suggestion-image .suggestion-alarm .suggestion-alarm-image {
+    background: #435cc9;
+    color: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 15px;
+}
+
+.suggestion-image .suggestion-alarm .suggestion-alarm-text {
+    width: 65%;
+}
+
+.suggestion-image .suggestion-alarm .suggestion-alarm-text p {
+    color: #00000090;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.suggestion-image .suggestion-alarm .suggestion-alarm-text h4 {
+    font-size: 18px;
+    padding-right: 3px;
 }
