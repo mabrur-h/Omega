@@ -105,6 +105,7 @@ body {
 
 .navbar-list-links .dropdown-menu-1 {
     position: relative;
+    padding-bottom: 14px;
 }
 
 .navbar-list-links .dropdown-menu-row {
@@ -115,9 +116,9 @@ body {
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     width: 245%;
-    padding: 10px 20px;
     box-shadow: 4px 4px 13px 0px rgba(50, 50, 50, 0.59);
     display: none;
+    top: 100%;
 }
 
 .dropdown-menu-1:hover .dropdown-menu-row {
@@ -132,7 +133,7 @@ body {
 .navbar-list-links .dropdown-menu-row-2 {
     position: absolute;
     top: 45%;
-    left: -137%;
+    left: -125%;
     z-index: 9999;
     background-color: white;
     border-top: 3px solid #F04037;
@@ -157,6 +158,11 @@ body {
 
 .navbar-list-links .dropdown-menu-row .navbar-list-dropdown-item {
     padding: 8px 0;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.navbar-list-links .navbar-list-dropdown {
 }
 
 .navbar-list-links .main-btn {
@@ -340,6 +346,7 @@ body {
     padding: 30px 20px;
     border-radius: 10px;
     box-shadow: 4px 4px 12px 0px rgba(50, 50, 50, 0.56);
+    cursor: pointer;
 }
 
 .info-row .info-cards-list .info-cards-list-item:hover {
