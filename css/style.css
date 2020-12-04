@@ -764,3 +764,7 @@ body {
 .footer-bottom i:hover {
     color: #435cc9;
 }
+
+.cursor {
+    cursor: pointer;
+}
