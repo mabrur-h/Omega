@@ -7,13 +7,16 @@
     <link rel="stylesheet" href="css/style.css">
     
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://kit.fontawesome.com/d7b78f5979.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <section class="main-banner">
         <header class="main-header">
-            <nav class="navbar">
+            <nav class="navbar" data-aos="fade-down"
+            data-aos-duration="500" data-aos-easing="ease-in-sine">
                 <ul class="navbar-list">
                     <div class="navbar-list-logo">
                         <li class="navbar-list-item">
@@ -97,7 +100,7 @@
         </header>
         <div class="container">
             <div class="main-banner-row">
-                <div class="main-banner-content">
+                <div class="main-banner-content"  data-aos="fade-right" data-aos-duration="1000">
                     <h1 class="main-banner-content-title">
                         Redesigned, how you build landing page!
                     </h1>
@@ -117,7 +120,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="main-banner-image">
+                <div class="main-banner-image" data-aos="fade-down-left" data-aos-duration="1000">
                     <div class="iphone-image">
                         <img src="img/iphone.png" alt="iphone" class="main-banner-iphone-image">
                         <div class="alarm-element p-1">
@@ -137,12 +140,14 @@
                     </div>
                 </div>
             </div>
-            <div class="main-banner-subtext">
+            <div class="main-banner-subtext" data-aos="flip-up"
+           data-aos-duration="900">
                 <p>
                     Popular teams who use Omega for appoinments
                 </p>
             </div>
-            <div class="main-banner-footer">
+            <div class="main-banner-footer" data-aos="fade-up"
+            data-aos-duration="1500">
                 <ul class="logo-list">
                     <li>
                         <img src="img/logo 1.svg" alt="Logo">
@@ -165,9 +170,10 @@
     </section>
     <section class="info">
         <div class="container">
-            <div class="info-row">
+            <div class="info-row"> 
                 <ul class="info-cards-list">
-                    <li class="info-cards-list-item">
+                    <li class="info-cards-list-item" data-aos="fade-right"
+                    data-aos-duration="1000">
                         <div class="info-cards-list-image c-1">
                             <img src="img/layout-11.svg" alt="layout">
                         </div>
@@ -178,7 +184,8 @@
                             With lots of unique blocks, youcan easily build a page withoutcoding.
                         </p>
                     </li>
-                    <li class="info-cards-list-item">
+                    <li class="info-cards-list-item" data-aos="fade-left"
+                    data-aos-duration="700">
                         <div class="info-cards-list-image c-2">
                             <img src="img/sidebar.svg" alt="layout-sidebar">
                         </div>
@@ -189,7 +196,8 @@
                             With lots of unique blocks, youcan easily build a page withoutcoding.
                         </p>
                     </li>
-                    <li class="info-cards-list-item">
+                    <li class="info-cards-list-item" data-aos="fade-right"
+                    data-aos-duration="700">
                         <div class="info-cards-list-image c-3">
                             <img src="img/bookmark-2.svg" alt="layout-bookmark">
                         </div>
@@ -200,7 +208,8 @@
                             With lots of unique blocks, youcan easily build a page withoutcoding.
                         </p>
                     </li>
-                    <li class="info-cards-list-item">
+                    <li class="info-cards-list-item" data-aos="fade-left"
+                    data-aos-duration="700">
                         <div class="info-cards-list-image c-4">
                             <img src="img/chat-content.svg" alt="layout-chat">
                         </div>
@@ -212,7 +221,8 @@
                         </p>
                     </li>
                 </ul>
-                <div class="info-row-content">
+                <div class="info-row-content" data-aos="flip-up"
+                data-aos-duration="700">
                     <h2 class="info-content-title">
                         Build a perfect landing page fast.
                     </h2>
@@ -229,8 +239,9 @@
     <section class="suggestion">
         <div class="container">
             <div class="suggestion-row">
-                <div class="suggestion-content">
-                    <h2 class="suggestion-content-title">
+                <div class="suggestion-content" data-aos="fade-right"
+                data-aos-duration="700">
+                    <h2 class="suggestion-content-title" >
                         Save tons of time on design & coding.
                     </h2>
                     <p class="suggestion-content-text">
@@ -240,7 +251,8 @@
                         Get Started
                     </a>
                 </div>
-                <div class="suggestion-image">
+                <div class="suggestion-image" data-aos="fade-left"
+                data-aos-duration="700">
                     <div class="suggestion-main-image">
                         <img src="img/BGmain.png" alt="boy, computer">
                     </div>
@@ -261,7 +273,8 @@
     <section class="tips">
         <div class="container">
             <div class="suggestion-row">
-                <div class="suggestion-image">
+                <div class="suggestion-image" data-aos="zoom-out-left"
+                data-aos-duration="700">
                     <div class="suggestion-main-image">
                         <img src="img/BG.png" alt="boy, computer">
                     </div>
@@ -276,7 +289,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="suggestion-content">
+                <div class="suggestion-content" data-aos="zoom-out-right"
+                data-aos-duration="700">
                     <h2 class="suggestion-content-title">
                         It’s everything you’ll ever need.
                     </h2>
@@ -309,11 +323,13 @@
     <section class="minds">
         <div class="container">
             <div class="customer-minds-row">
-                <h2 class="customer-minds-title">
+                <h2 class="customer-minds-title" data-aos="zoom-out"
+                data-aos-duration="700">
                     Customers are loving our Omega
                 </h2>
                 <ul class="customer-minds-list">
-                    <li class="customer-minds-item">
+                    <li class="customer-minds-item" data-aos="flip-left"
+                    data-aos-duration="700" data-aos-easing="ease-in-sine">
                         <div class="customer-minds-header">
                             <img src="img/Jonathan.svg" alt="ava" class="customer-image">
                             <div class="customer-minds-text">
@@ -332,7 +348,8 @@
                             </p>
                         </div>
                     </li>
-                    <li class="customer-minds-item">
+                    <li class="customer-minds-item" data-aos="flip-down"
+                    data-aos-duration="1000" data-aos-easing="ease-in-sine">
                         <div class="customer-minds-header">
                             <img src="img/Jonathan.svg" alt="ava" class="customer-image">
                             <div class="customer-minds-text">
@@ -351,7 +368,8 @@
                             </p>
                         </div>
                     </li>
-                    <li class="customer-minds-item">
+                    <li class="customer-minds-item" data-aos="flip-right"
+                    data-aos-duration="700" data-aos-easing="linear">
                         <div class="customer-minds-header">
                             <img src="img/Jonathan.svg" alt="ava" class="customer-image">
                             <div class="customer-minds-text">
@@ -371,7 +389,8 @@
                         </div>
                     </li>
                 </ul>
-                <a href="#" class="btn-2">
+                <a href="#" class="btn-2" data-aos="fade-up"
+                data-aos-duration="700" data-aos-easing="ease-in-sine">
                 <i class="fas fa-comment-alt"></i>
                 <p>See all testimonials</p>
                 </a>
@@ -382,20 +401,24 @@
         <div class="container">
             <div class="form-row">
                 <div class="form-text-row">
-                    <h2 class="form-title">
+                    <h2 class="form-title" data-aos="flip-up"
+                    data-aos-duration="700" data-aos-easing="ease-in-sine">
                         Get Started
                     </h2>
-                    <p class="form-text">
+                    <p class="form-text" data-aos="flip-up"
+                    data-aos-duration="700" data-aos-easing="ease-in-sine">
                         Create custom landing pages with Omega that converts more visitors than any website. With lots of unique blocks, you can easily build a page without coding.
                     </p>
-                    <form action="/action_page.php" class="footer-form">
-                    <input type="text" name="name" placeholder="Your name">
-                    <input type="email" name="email" placeholder="Email address">
-                    <input type="submit" value="Get Started" class="main-btn cursor">
+                    <form action="/action_page.php" class="footer-form" data-aos="fade-up"
+                    data-aos-duration="700" data-aos-easing="ease-in-sine">
+                        <input type="text" name="name" placeholder="Your name">
+                        <input type="email" name="email" placeholder="Email address">
+                        <input type="submit" value="Get Started" class="main-btn cursor">
                     </form>
                 </div>
             </div>
-            <div class="footer-list-group">
+            <div class="footer-list-group" data-aos="flip-down"
+            data-aos-duration="800" data-aos-easing="ease-in-sine">
                 <ul class="footer-list">
                     <li class="footer-list-item">
                         <h2 class="footer-list-title">Omega</h4>
@@ -492,5 +515,8 @@
             </div>
         </div>
     </footer>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html> 
