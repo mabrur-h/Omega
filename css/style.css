@@ -92,6 +92,7 @@ body {
     background-position: calc(0% - 140px) 0;
 }
 
+
 .navbar .navbar-list {
     display: flex;
     justify-content: space-between;
