@@ -68,6 +68,7 @@ body {
     width: 1140px;
     margin: 0 auto;
     padding: 0 30px;
+    overflow: hidden;
 }
 
 .main-btn {
@@ -451,6 +452,7 @@ body {
 
 .suggestion-image {
     position: relative;
+    width: 45%;
 }
 
 .suggestion-image .suggestion-decor-image {
@@ -471,6 +473,7 @@ body {
     padding-right: 0;
     box-shadow: 4px 4px 13px 0px rgba(50, 50, 50, 0.59);
 }
+
 
 
 .suggestion-image .suggestion-alarm .suggestion-alarm-image {
@@ -496,7 +499,7 @@ body {
 }
 
 .suggestion-image .suggestion-alarm .suggestion-alarm-text h4 {
-    font-size: 18px;
+    font-size: 16px;
     padding-right: 3px;
 }
 
@@ -517,9 +520,10 @@ body {
 }
 
 .tips .suggestion-alarm {
-    top: 20%;
+    top: 17%;
     background-color: #F04037;
-    width: 60%;
+    width: 55%;
+    left: 0;
 }
 
 .tips .suggestion-alarm .suggestion-alarm-text p {
@@ -548,7 +552,7 @@ body {
     padding: 20px 20px;
     margin: 20px 0;
     background-color: #FFFFFF;
-    width: 60%;
+    width: 80%;
     box-shadow: 0px 0px 5px 0 rgba(50, 50, 50, 0.05);
     border-radius: 5px;
     transition: transform 0.3s;
@@ -667,6 +671,7 @@ body {
     background-image: url('../img/white-curve-3.svg'), url('../img/Oval3.svg');
     background-repeat: no-repeat, no-repeat;
     background-size: 100% auto, auto;
+    background-position: top, top left;
 }
 
 .footer .form-title {
@@ -765,4 +770,76 @@ body {
 
 .cursor {
     cursor: pointer;
+}
+
+@media (max-width: 1140px) {
+    
+    .container {
+        width: 960px;
+    }
+
+    .main-banner-content .main-banner-content-title {
+        font-size: 60px;
+    }
+
+    .main-banner-content .main-banner-content-text {
+        font-size: 20px;
+    }
+
+    .info-row .info-cards-list .info-cards-list-item {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        flex-flow: column;
+        padding: 20px 20px;
+    }
+
+    .info-row .info-cards-list .info-cards-list-title {
+        padding: 8px 0;
+        position: absolute;
+    }
+
+    .info-row .info-cards-list .info-cards-list-text {
+        line-height: 1.5 rem;
+        text-align: center;
+    }
+
+    .info-row .info-cards-list .info-cards-list-image {
+        position: relative;
+        left: -40%;
+        top: -8%;
+    }
+
+    .suggestion-decor-image {
+        width: 80%;
+    }
+
+    .suggestion-bg-image {
+        width: 100%;
+    }
+
+    .tips .suggestion-alarm {
+        top: 60%;
+        left: 0;
+        width: 70%;
+    }
+
+    .tips .suggestion-alarm .suggestion-alarm-text h4 {
+        padding-top: 2px;
+        font-size: 16px;
+
+    }
+
+    .tips .suggestion-cards .suggestion-cards-item {
+        width: 100%;
+    }
+
+    .customer-minds-title {
+        width: 50%;
+    }
+
+    .customer-minds-header .customer-minds-text {
+        margin-left: 0;
+    }
+
 }
