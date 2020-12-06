@@ -773,7 +773,7 @@ body {
 }
 
 @media (max-width: 1140px) {
-    
+
     .container {
         width: 960px;
     }
@@ -784,6 +784,14 @@ body {
 
     .main-banner-content .main-banner-content-text {
         font-size: 20px;
+    }
+
+    .main-banner-content .btn-group .main-btn {
+        padding: 20px 155px;
+    }
+
+    .main-banner-content .btn-group div {
+        padding: 20px 0;
     }
 
     .info-row .info-cards-list .info-cards-list-item {
@@ -840,6 +848,36 @@ body {
 
     .customer-minds-header .customer-minds-text {
         margin-left: 0;
+    }
+
+}
+
+@media (max-width: 960px) {
+    .container {
+        width: 760px;
+    }
+
+    .main-banner-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-banner-row .main-banner-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .main-banner-content .btn-group .main-btn {
+        font-size: 20px;
+        padding: 20px 285px;
+    }
+
+    .iphone-image {
+        display: none;
+    }
+
+    .main-banner-subtext {
+        text-align: center;
     }
 
 }
