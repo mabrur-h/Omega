@@ -67,6 +67,7 @@ body {
 .container {
     width: 1140px;
     margin: 0 auto;
+    padding: 0 30px;
 }
 
 .main-btn {
@@ -167,9 +168,6 @@ body {
     cursor: pointer;
 }
 
-.navbar-list-links .navbar-list-dropdown {
-}
-
 .navbar-list-links .main-btn {
     margin-left: 15px;
 }
@@ -205,7 +203,7 @@ body {
 }
 
 .main-banner-row .main-banner-image {
-    width: 30%;
+    width: 35%;
 }
 
 .iphone-image {
@@ -233,7 +231,7 @@ body {
 
 .p-2 {
     top: 70%;
-    right: -20%;;
+    right: 0%;;
 }
 
 .alarm-element i {
@@ -669,7 +667,6 @@ body {
     background-image: url('../img/white-curve-3.svg'), url('../img/Oval3.svg');
     background-repeat: no-repeat, no-repeat;
     background-size: 100% auto, auto;
-    background-position: top, top left;
 }
 
 .footer .form-title {
