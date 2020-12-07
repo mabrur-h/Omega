@@ -87,6 +87,10 @@ body {
     color: white !important; 
 }
 
+.bar-drop {
+    display: none;
+}
+
 .main-banner {
     background-image: url('../img/Oval.svg');
     background-repeat: no-repeat;
@@ -996,6 +1000,17 @@ body {
         width: 425px;
     }
     
+    .bar-drop {
+        display: inline;
+        background-color: transparent;
+        outline: none;
+        border: none;
+    }
+    
+    .bar-drop:hover {
+        color: #F04037;
+    }
+
     .main-banner {
         background-size: 65%;
     }
@@ -1042,6 +1057,10 @@ body {
 
     .main-banner-footer .logo-list img {
         width: 50px;
+    }
+
+    .info {
+        background-position: right 0, 100% 100%;
     }
 
     .info-row-content .info-content-title {
@@ -1108,4 +1127,222 @@ body {
         background-size: 100%, 60%;
     }
 
+    .footer .form-row .form-title {
+        font-size: 38px;
+    }
+
+    .footer .form-row .form-text {
+        font-size: 14px;
+        line-height: 32px;
+        width: 100%;
+    }
+
+    .footer .footer-form input {
+        padding: 15px 20px;
+    }
+
+    .footer .footer-form .main-btn {
+        padding: 15px 0;
+    }
+
+    .footer .footer-list-group {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .footer .footer-list-group ul {
+        width: 40%;
+        padding-bottom: 15px;
+    }
+
+    .footer .footer-list-group > div {
+        position: absolute;
+        top: -12%;
+        left: 40%;
+    }
+
+    .footer .footer-bottom {
+        font-size: 12px;
+    }
+
+    .footer-bottom p {
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .container {
+        width: 320px;
+    }
+
+    .navbar .navbar-list-item a {
+        font-size: 18px;
+    }
+
+    .navbar .main-btn {
+        font-size: 12px;
+    }
+
+    .main-banner-row {
+        padding-bottom: 30px;
+    }
+
+    .main-banner-content .main-banner-content-title {
+        font-size: 34px;
+        line-height: 44px;
+    }
+
+    .main-banner-content .main-banner-content-text {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 18px 0;
+    }
+
+    .main-banner-content .btn-group .main-btn {
+        padding: 10px 65px;
+    }
+
+    .main-banner-content .btn-group div {
+        font-size: 14px;
+    }
+
+    .main-banner-subtext p {
+        font-size: 12px;
+    }
+
+    .info {
+        background-size: 100%;
+    }
+
+    .main-banner-footer .logo-list li {
+        width: 35%;
+    }
+
+    .info-row-content .info-content-title {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .info-row-content .info-content-title {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .info-row-content .info-content-text {
+        line-height: 1.4rem;
+        font-size: 12px;
+        padding: 20px 0;
+        padding-bottom: 40px;
+    }
+
+    .info-row .info-content-btn {
+        padding: 12px 44px;
+        font-size: 12px;
+    }
+
+    .info-row .info-cards-list .info-cards-list-title {
+        font-size: 16px;
+    }
+
+    .info-row .info-cards-list .info-cards-list-text {
+        font-size: 12px;
+        line-height: 16px;
+        padding-top: 10px;
+    }
+
+    .info-row .info-cards-list .info-cards-list-image {
+        top: 0;
+        height: 30px;
+        width: 30px;
+    }
+
+    .info-row .info-cards-list .info-cards-list-image img {
+        height: 14px;
+    }
+
+    .suggestion-content .suggestion-content-title {
+        font-size: 28px;
+    }
+
+    .suggestion-content .suggestion-content-text {
+        font-size: 12px;
+        line-height: 20px;
+        padding: 10px 0;
+        padding-bottom: 15px;
+    }
+
+    .suggestion-content .main-btn {
+        padding: 10px 80px;
+        font-size: 12px;
+    }
+
+    .suggestion-cards .suggestion-cards-image img {
+        height: 12px;
+    }
+
+    .tips .suggestion-cards .suggestion-cards-item .suggestion-cards-image {
+        width: 30px;
+        height: 30px;
+    }
+
+    .tips .suggestion-cards .suggestion-cards-text {
+        font-size: 12px;
+    }
+
+    .minds .customer-minds-title {
+        font-size: 28px;
+    }
+
+    .customer-minds-header .customer-image {
+        width: 15%;
+    }
+    
+    .customer-minds-header i {
+        font-size: 20px;
+    }
+
+    .customer-minds-header .customer-job {
+        font-size: 13px;
+    }
+
+    .customer-minds-header .customer-name {
+        font-size: 14px;
+    }
+
+    .customer-mind-text {
+        line-height: 16px;
+    }
+
+    .minds .btn-2 {
+        font-size: 14px;
+    }
+
+    .footer .form-row .form-title {
+        font-size: 28px;
+    }
+
+    .footer .form-row .form-text {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .footer .footer-form input {
+        font-size: 10px;
+        padding: 10px 15px;
+    }
+
+    .footer .footer-list {
+        font-size: 12px;
+    }
+
+    .footer-bottom p {
+        font-size: 8px;
+    }
+
+    .footer-bottom .footer-icons-group {
+        font-size: 8px;
+    }
 }
