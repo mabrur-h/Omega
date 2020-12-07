@@ -98,6 +98,7 @@ body {
 .navbar .navbar-list {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 20px 20px;
 }
 
@@ -858,6 +859,10 @@ body {
         width: 760px;
     }
 
+    .main-banner {
+        background-size: 50%;
+    }
+
     .main-banner-row {
         flex-direction: column;
         align-items: center;
@@ -981,6 +986,126 @@ body {
 
     .footer .footer-list {
         font-size: 14px;
+    }
+
+}
+
+@media (max-width: 760px) {
+    
+    .container {
+        width: 425px;
+    }
+    
+    .main-banner {
+        background-size: 65%;
+    }
+
+    .navbar .mob-hid {
+        display: none;
+    }
+
+    .navbar .main-btn {
+        padding: 6px 14px;
+    }
+
+    .navbar .navbar-list-item {
+        padding: 0;
+    }
+
+    .main-banner-content .main-banner-content-title {
+        font-size: 46px;
+        line-height: 55px;
+    }
+
+    .main-banner-content .main-banner-content-text {
+        font-size: 18px;
+        line-height: 36px;;
+    }
+
+    .main-banner-content .btn-group .main-btn {
+        padding: 20px 105px;
+    }
+
+
+    .main-banner-subtext p {
+        font-size: 14px;
+    }
+
+    .main-banner-footer .logo-list {
+        overflow-x: auto;
+    }
+
+    .main-banner-footer .logo-list li {
+        width: 30%;
+        padding: 0 20px;
+    }
+
+    .main-banner-footer .logo-list img {
+        width: 50px;
+    }
+
+    .info-row-content .info-content-title {
+        font-size: 38px;
+        line-height: 55px;
+    }
+
+    .info-row .info-content-btn {
+        padding: 15px 90px;
+    }
+
+    .info-row .info-cards-list .info-cards-list-item {
+        width: 100%;
+    }
+
+    .suggestion-row {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .suggestion-image {
+        display: none;
+    }
+
+    .suggestion-content {
+        width: 100%;
+    }
+
+    .tips .suggestion-row {
+        padding-top: 100px;
+    }
+
+    .suggestion-row .suggestion-content {
+        width: 100%
+    }
+
+    .customer-minds-row {
+        padding: 50px 0;
+    }
+
+    .customer-minds-title {
+        width: 100%;
+        font-size: 38px;
+    }
+
+    .customer-minds-list .customer-minds-item {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .customer-minds-footer {
+        padding: 8px 0;
+    }
+
+    .customer-minds-header .customer-name {
+        font-size: 16px;
+    }
+
+    .customer-mind-text {
+        font-size: 12px;
+    }
+
+    .footer {
+        background-size: 100%, 60%;
     }
 
 }
