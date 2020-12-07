@@ -315,6 +315,7 @@ body {
 .main-banner-footer .logo-list {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 30px 0;
 }
 
@@ -323,7 +324,7 @@ body {
     background-image: url('../img/Oval2.svg'), url('../img/white-curve-1.svg');
     background-size: auto, 100% auto;
     background-repeat: no-repeat no-repeat;
-    background-position: right 0, 100% 102%;
+    background-position: right 0, 100% 101%;
 }
 
 .info-row {
@@ -878,6 +879,108 @@ body {
 
     .main-banner-subtext {
         text-align: center;
+    }
+
+    .info-row {
+        flex-direction: column-reverse;
+    }
+
+    .info-row .info-cards-list {
+        width: 90%;
+    }
+
+    .info-row .info-cards-list .info-cards-list-item {
+        width: 45%;
+    }
+
+    .info-row .info-row-content {
+        width: 90%;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .info-row .info-content-btn {
+        padding: 15px 150px;
+        font-size: 14px;
+    }
+
+    .info-row .info-cards-list .info-cards-list-title {
+        margin-left: 40px;
+    }
+
+    .info-row .info-cards-list .info-cards-list-text {
+        font-size: 14px;
+    }
+
+    .suggestion-content .suggestion-content-title {
+        font-size: 38px;
+    }
+
+    .suggestion-content .suggestion-content-text {
+        font-size: 14px;
+    }
+
+    .suggestion-content .main-btn {
+        padding: 10px 95px;
+    }
+
+    .suggestion-image .suggestion-decor-image {
+        display: none;
+    }
+
+    .suggestion-image .suggestion-alarm {
+        left: 2%;
+        top: 75%;
+        padding: 10px 10px;
+    }
+
+    .tips .suggestion-content-title {
+        width: 100%;
+    }
+
+    .tips .suggestion-alarm {
+        width: 85%;
+        left: 7%;
+        top: 80%;
+    }
+
+    .tips .suggestion-alarm .suggestion-alarm-text p {
+        font-size: 10px;
+    }
+
+    .tips .suggestion-alarm .suggestion-alarm-text h4 {
+        font-size: 14px;
+    }
+
+    .suggestion-image .suggestion-alarm .suggestion-alarm-image {
+        margin: 0 10px;
+    }
+
+    .customer-minds-title {
+        width: 80%;
+    }
+
+    .customer-minds-list {
+        width: 100%;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .customer-minds-list .customer-minds-item {
+        width: 45%;
+    }
+
+    .customer-minds-list .w__6 {
+        margin-top: 30px;
+        width: 60%;
+    }
+
+    .footer .form-text-row {
+        width: 85%;
+    }
+
+    .footer .footer-list {
+        font-size: 14px;
     }
 
 }
